@@ -1,0 +1,14 @@
+.dTopbar {
+    background-color: black;
+}
+
+.dAlert {
+    background-color: #fe0202;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.dFooter {
+    background-color: black;
+    color: white;
+}

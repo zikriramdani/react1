@@ -1,1 +1,8 @@
 @import "~bootstrap/scss/bootstrap";
+
+// Import Component
+@import 'components/section';
+
+body {
+    background-color: #e8e8e8;
+}
