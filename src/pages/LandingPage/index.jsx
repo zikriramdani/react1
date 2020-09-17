@@ -33,7 +33,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <h6>
-                                    Sebelum menutup halaman ini patikan Anda telah mengecek<br></br>penawaran special kami Tanya untuk Anda
+                                    Sebelum menutup halaman ini patikan Anda telah mengecek<br></br>penawaran special kami hanya untuk Anda
                                 </h6>
                             </Col>
                         </Row>
