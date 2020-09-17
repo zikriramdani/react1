@@ -15,6 +15,24 @@ class SectionFour extends Component {
                                     </b>
                                 </h5>
                             </div>
+                            <Row>
+                                <Col xs={12} md={6}>
+                                    <div>
+                                        <div></div>
+                                        <div>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </Col>
+                                <Col xs={12} md={6}>
+                                    <div>
+                                        <div></div>
+                                        <div>
+                                            Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                        </div>
+                                    </div>
+                                </Col>
+                            </Row>
                         </div>
                     </Col>
                 </Row>

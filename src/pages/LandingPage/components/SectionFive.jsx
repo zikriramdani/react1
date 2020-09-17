@@ -9,11 +9,11 @@ class SectionFive extends Component {
                     <Col>
                         <div className="dSection dSectionOne p-3">
                             <div className="dTitle">
-                                <h5>
+                                <h5 className="text-uppercase">
                                     <b>
-                                        Mudahnya Mengadakan Live Training
-                                        <br></br>
-                                        Secara Online, Bahkan Bagi Pemula Sekalipun
+                                        Otomatis Dapat Menggunakan<br></br>
+                                        Aplikasi/Platform <span className="text-danger">Interskill</span> Gratis<br></br>
+                                        Lengkap dengan Fasilitas Fitur-fiturnya
                                     </b>
                                 </h5>
                             </div>

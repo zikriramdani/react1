@@ -11,11 +11,11 @@ class SectionSix extends Component {
                             <div className="dTitle">
                                 <h5>
                                     <b>
-                                        Mudahnya Mengadakan Live Training
-                                        <br></br>
-                                        Secara Online, Bahkan Bagi Pemula Sekalipun
+                                        Mau Dapat Penjelasan Lebih Lanjut  Mengenai<br></br>
+                                        BONUS EKSLUSIF Di Atas?
                                     </b>
                                 </h5>
+                                <p>Klik "Video Penjelasan Bonus Ekslusif" dibawah ini:</p>
                             </div>
                         </div>
                     </Col>

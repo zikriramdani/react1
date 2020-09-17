@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Button} from 'react-bootstrap';
 import './css/landingpage.css';
 import LogoInterskill from '../../assets/images/logo-interskill.png';
 
@@ -41,6 +41,37 @@ class Index extends Component {
                 <SectionFour />
                 <SectionFive />
                 <SectionSix />
+                <div className="dContact">
+                    <Container fluid>
+                        <Row>
+                            <Col className="text-center p-3">
+                                <div className="dTitle">
+                                    <h5 className="text-capitalize">
+                                        <b>
+                                            Klik Tombol “Ya, saya mau solusi ini” untuk<br></br>
+                                            Mendapatkan Bonus Ekslusif di atas
+                                        </b>
+                                    </h5>
+                                    <p>Khusus bagi yang Mendaftar Hari ini</p>
+                                </div>
+                                <div className="mb-3">
+                                    <Button variant="danger" className="dButtonRed">
+                                        <b>Ya, Saya Mau Solusi ini</b>
+                                    </Button>
+                                </div>
+                                <div className="dTitle">
+                                    <h5 className="text-capitalize">
+                                        <b>
+                                            <i>Limited Time Offer</i>
+                                        </b>
+                                    </h5>
+                                </div>
+                            
+                            </Col>
+                        </Row>
+                    </Container>
+                
+                </div>
                 <div className="dFooter">
                     <Container fluid>
                         <Row>
