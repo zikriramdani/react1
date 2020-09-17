@@ -10,6 +10,7 @@ import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
 import SectionFive from './components/SectionFive';
 import SectionSix from './components/SectionSix';
+import SectionSeven from './components/SectionSeven';
 
 class Index extends Component {
     render() {
@@ -41,6 +42,7 @@ class Index extends Component {
                 <SectionFour />
                 <SectionFive />
                 <SectionSix />
+                <SectionSeven />
                 <div className="dContact">
                     <Container fluid>
                         <Row>

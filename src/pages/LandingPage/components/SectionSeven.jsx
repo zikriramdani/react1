@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 
-class SectionOne extends Component {
+class SectionSeven extends Component {
     render() {
         return (
             <Container fluid>
@@ -9,11 +9,13 @@ class SectionOne extends Component {
                     <Col>
                         <div className="dSection dSectionOne">
                             <div className="dTitle">
-                                <h5 className="text-uppercase">
+                                <h5>
                                     <b>
-                                        Solusi Terbaru Bagi Event Live Streaming Anda<br></br>Dengan Fitur/Tools Online Otomatis<br></br>Dan Tanya Biaya Bulanan
+                                        Mau Dapat Penjelasan Lebih Lanjut  Mengenai<br></br>
+                                        BONUS EKSLUSIF Di Atas?
                                     </b>
                                 </h5>
+                                <h6>Klik "Video Penjelasan Bonus Ekslusif" dibawah ini:</h6>
                             </div>
                         </div>
                     </Col>
@@ -23,4 +25,4 @@ class SectionOne extends Component {
     }
 }
  
-export default SectionOne;
+export default SectionSeven;

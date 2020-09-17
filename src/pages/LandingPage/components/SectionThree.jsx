@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import {Container, Row, Col, Table, Button} from 'react-bootstrap';
 
+import Foto3 from '../../../assets/images/foto-3.jpg';
+
 class SectionThree extends Component {
     render() {
         const elements = [
@@ -37,13 +39,34 @@ class SectionThree extends Component {
             <Container fluid>
                 <Row>
                     <Col>
-                        <div className="dSection dSectionOne p-3">
+                        <div className="dSection dSectionOne">
                             <div className="dTitle">
                                 <h5 className="text-capitalize">
                                     <b>
                                         Mengapa Harus Menggunakan Interskill?
                                     </b>
                                 </h5>
+                            </div>
+
+                            <div className="text-left mb-5">
+                                <div className="mb-3" style={{height: 300}}>
+                                    <div className="dBackgroundImageCenter" style={{backgroundImage: 'url(' + Foto3 + ')'}}></div>
+                                </div>
+                                <ol className="dList">
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <ul className="dListChecked mb-2">
+                                        <li class="dChecked">Hit the gym</li>
+                                        <li class="dChecked">Pay bills</li>
+                                        <li class="dChecked">Meet George</li>
+                                        <li class="dChecked">Buy eggs</li>
+                                        <li class="dChecked">Read a book</li>
+                                        <li class="dChecked">Organize office</li>
+                                    </ul>
+                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                </ol>
                             </div>
 
                             <div className="dTitle">

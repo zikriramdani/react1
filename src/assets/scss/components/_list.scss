@@ -4,3 +4,32 @@
         margin-bottom: 10px;
     }
 }
+
+.dListChecked {
+
+    li {
+        position: relative;
+        padding: 3px 0px 3px 25px;
+        list-style-type: none;
+        transition: 0.2s;
+        
+        /* make the list items unselectable */
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-bottom: 0;
+    }
+    li.dChecked::before {
+        content: '';
+        position: absolute;
+        border-color: #a4c041;
+        border-style: solid;
+        border-width: 0 2px 2px 0;
+        top: 3px;
+        left: 0px;
+        transform: rotate(45deg);
+        height: 20px;
+        width: 10px;
+    }
+}
