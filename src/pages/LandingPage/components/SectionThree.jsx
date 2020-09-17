@@ -76,6 +76,8 @@ class SectionThree extends Component {
                                         Fitur Apa Saja Yang Akan Anda Dapatkan di <span className="text-danger">Interskill</span>?
                                     </b>
                                 </h5>
+                            </div>
+                            <div>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting <span className="text-danger"><b>Interskill</b></span>.</p>
                             </div>
                             <div className="mb-2">
@@ -101,7 +103,7 @@ class SectionThree extends Component {
                                 </Table>
                             </div>
                             <div className="mb-3">
-                                <Link to="#" className="btn btn-danger dButtonRed">
+                                <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
                             </div>
@@ -120,7 +122,7 @@ class SectionThree extends Component {
                                 </p>
                             </div>
                             <div className="mb-3">
-                                <Link to="#" className="btn btn-danger dButtonRed">
+                                <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
                             </div>

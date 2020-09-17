@@ -22,7 +22,7 @@ class SectionFive extends Component {
                                 </h5>
                             </div>
                             <div className="mb-3">
-                                <Link to="#" className="btn btn-danger dButtonRed">
+                                <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
                             </div>

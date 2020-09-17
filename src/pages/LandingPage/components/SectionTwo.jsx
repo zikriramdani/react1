@@ -107,7 +107,7 @@ class SectionTwo extends Component {
                                 </p>
                             </div>
                             <div>
-                                <Link to="#" className="btn btn-danger dButtonRed">
+                                <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
                             </div>
