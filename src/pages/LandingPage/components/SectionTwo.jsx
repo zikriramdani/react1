@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import Foto1 from '../../../assets/images/foto-1.jpg';
 import Foto2 from '../../../assets/images/foto-2.jpg';
@@ -106,9 +107,9 @@ class SectionTwo extends Component {
                                 </p>
                             </div>
                             <div>
-                                <Button variant="danger" className="dButtonRed">
-                                    <b>Ya, Saya Mau Solusi ini</b>
-                                </Button>
+                                <Link to="#" className="btn btn-danger dButtonRed">
+                                    Ya, Saya Mau Solusi ini
+                                </Link>
                             </div>
                         </div>
                     </Col>

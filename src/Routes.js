@@ -10,10 +10,10 @@ class Routes extends Component {
             <BrowserRouter>
                 <Switch>
                     <Route path="/" exact component={LandingPage} />
-                    <Route path="/landingpage" exact component={LandingPage} />
+                    <Route path="/" exact component={LandingPage} />
                     <Route path="/squeze" exact component={Squeze} />
                     {/* <Route path="*" exact component={LandingPage} /> */}
-                    <Redirect exact from="*" to="/landingpage" />
+                    <Redirect exact from="*" to="/" />
                 </Switch>
             </BrowserRouter>
         );

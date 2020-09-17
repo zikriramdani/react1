@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Table, Button} from 'react-bootstrap';
+import {Container, Row, Col, Table} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 import Foto3 from '../../../assets/images/foto-3.jpg';
 
@@ -100,9 +101,9 @@ class SectionThree extends Component {
                                 </Table>
                             </div>
                             <div className="mb-3">
-                                <Button variant="danger" className="dButtonRed">
-                                    <b>Ya, Saya Mau Solusi ini</b>
-                                </Button>
+                                <Link to="#" className="btn btn-danger dButtonRed">
+                                    Ya, Saya Mau Solusi ini
+                                </Link>
                             </div>
                             <div className="text-left">
                                 <p>
@@ -119,9 +120,9 @@ class SectionThree extends Component {
                                 </p>
                             </div>
                             <div className="mb-3">
-                                <Button variant="danger" className="dButtonRed">
-                                    <b>Ya, Saya Mau Solusi ini</b>
-                                </Button>
+                                <Link to="#" className="btn btn-danger dButtonRed">
+                                    Ya, Saya Mau Solusi ini
+                                </Link>
                             </div>
                         </div>
                     </Col>

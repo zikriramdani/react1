@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 class SectionFive extends Component {
     render() {
@@ -21,9 +22,9 @@ class SectionFive extends Component {
                                 </h5>
                             </div>
                             <div className="mb-3">
-                                <Button variant="danger" className="dButtonRed">
-                                    <b>Ya, Saya Mau Solusi ini</b>
-                                </Button>
+                                <Link to="#" className="btn btn-danger dButtonRed">
+                                    Ya, Saya Mau Solusi ini
+                                </Link>
                             </div>
                             <div className="text-capitalize py-3">
                                 <h5>Hanya Bagi Yang Menndaftar Hari Ini!</h5>

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-import {Container, Row, Col, Button} from 'react-bootstrap';
+import {Container, Row, Col} from 'react-bootstrap';
 import './css/landingpage.css';
 import LogoInterskill from '../../assets/images/logo-interskill.png';
+import { Link } from 'react-router-dom';
 
 // Import Component
 import SectionOne from './components/SectionOne';
@@ -20,7 +21,9 @@ class Index extends Component {
                     <Container fluid>
                         <Row>
                             <Col className="text-center p-3">
-                                <img src={LogoInterskill} width="70" alt="interskill" />
+                                <Link to="/">
+                                    <img src={LogoInterskill} width="70" alt="interskill" />
+                                </Link>
                             </Col>
                         </Row>
                     </Container>
@@ -57,9 +60,9 @@ class Index extends Component {
                                     <p>Khusus bagi yang Mendaftar Hari ini</p>
                                 </div>
                                 <div className="mb-3">
-                                    <Button variant="danger" className="dButtonRed">
-                                        <b>Ya, Saya Mau Solusi ini</b>
-                                    </Button>
+                                    <Link to="#" className="btn btn-danger dButtonRed">
+                                        Ya, Saya Mau Solusi ini
+                                    </Link>
                                 </div>
                                 <div className="dTitle">
                                     <h5 className="text-capitalize">

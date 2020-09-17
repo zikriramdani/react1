@@ -37,6 +37,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Learn More
 
-LandingPage [http://localhost:3000/landingpage](http://localhost:3000/landingpage).
+LandingPage [http://localhost:3000](http://localhost:3000).
 
 Squeze [http://localhost:3000/squeze](http://localhost:3000/squeze).
