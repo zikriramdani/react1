@@ -1,10 +1,18 @@
 .dBodySqueze {
     height: 100%;
     background-color: white;
+    min-height:100%;
+    position:relative;
 
     .dAlertSqueze {
         background-color: #fed9da;
         padding: 25px;
         border-radius: 8px;
+    }
+
+    .dFooterSqueze {
+        position:absolute;
+        bottom:0;
+        width:100%;
     }
 }
