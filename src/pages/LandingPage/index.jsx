@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
-import './css/landingpage.css';
+import {Container, Row, Col, Image} from 'react-bootstrap';
+import './css/landingpage.scss';
 import LogoInterskill from '../../assets/images/logo-interskill.png';
 import { Link } from 'react-router-dom';
 
@@ -22,7 +22,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <Link to="/">
-                                    <img src={LogoInterskill} width="70" alt="interskill" />
+                                    <Image src={LogoInterskill} width="70" alt="interskill" />
                                 </Link>
                             </Col>
                         </Row>
