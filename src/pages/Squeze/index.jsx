@@ -65,10 +65,10 @@ class Index extends Component {
         this.state.isLoading = true;
         e.preventDefault();
         if(this.handleValidation()){
-            alert("Form submitted");
+            // alert("Form submitted");
             this.state.isLoading = false;
         }else{
-            alert("Form has errors.")
+            // alert("Form has errors.")
             this.state.isLoading = false;
         }
     }
@@ -115,7 +115,7 @@ class Index extends Component {
                                 <div>
                                     <p>
                                         Silahkan isi formulir di bawah untuk mendapatkan<br></br>
-                                        <b><span className="dTextWarning"><u>GRATIS Video Training</u></span></b> Anda dan video akan<br></br>
+                                        <b><span className="dTextWarning" style={{fontFamily: 'serif'}}><u>GRATIS Video Training</u></span></b> Anda dan video akan<br></br>
                                         langsung dikirimkan ke email Anda.
                                     </p>
                                     <div>
@@ -131,8 +131,8 @@ class Index extends Component {
                                                 <small className="text-danger">{this.state.errors["email"]}</small>
                                             </Form.Group>
                                             <div className="px-4 mb-2">
-                                                <Button className="dButtonDanger" variant="danger" type="submit" block disabled={this.state.isLoading}>
-                                                    {this.state.isLoading ? 'Loading…' : 'Download Video Gratis Saya'}
+                                                <Button className="dButtonDanger p-2" variant="danger" type="submit" block disabled={this.state.isLoading}>
+                                                 <i aria-hidden="true" className="fa fa-cloud-download-alt pr-2"></i> <b>{this.state.isLoading ? 'Loading…' : 'Download Video Gratis Saya'}</b>
                                                 </Button>
                                             </div>
                                             <p className="text-center">Video akan langsung dikirim ke email Anda secara otomatis.</p>
@@ -149,7 +149,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <p className="mb-0">
-                                    <b>INTERSKILL</b>
+                                    <b style={{fontFamily: 'Gilroy-Bold'}}>INTERSKILL</b>
                                     <br></br>
                                     Copyright 2020. All Rights Reserved
                                 </p>

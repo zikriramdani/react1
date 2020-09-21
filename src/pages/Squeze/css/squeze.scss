@@ -3,11 +3,16 @@
     background-color: white;
     min-height:100%;
     position:relative;
+    font-family: 'Gilroy';
 
-    .dAlertSqueze {
-        background-color: #fed9da;
-        padding: 25px;
-        border-radius: 8px;
+    .dTopbarSqueze {
+        font-family: 'Gilroy-Bold';
+
+        .dAlertSqueze {
+            background-color: #fed9da;
+            padding: 25px;
+            border-radius: 8px;
+        }
     }
 
     .dFooterSqueze {
