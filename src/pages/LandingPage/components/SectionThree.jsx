@@ -7,34 +7,34 @@ import Foto3 from '../../../assets/images/foto-3.jpg';
 class SectionThree extends Component {
     render() {
         const elements = [
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'},
-            {features: 'one', interskill: 'Available', zoom: 'None'}
+            {features: 'Zoom Meeting & Zoom Webinar Option', interskill: 'Available', zoom: 'Available'},
+            {features: 'Panelist Setting', interskill: 'Available', zoom: 'None'},
+            {features: 'Schedule Notification', interskill: 'Available', zoom: 'Available'},
+            {features: 'Event Invitation', interskill: 'Available', zoom: 'Available'},
+            {features: 'Event Security System', interskill: 'Interskill Security System', zoom: 'Un-Invited Guest Possibility'},
+            {features: 'Email Event Reminder', interskill: 'Available', zoom: 'None'},
+            {features: 'Marketing System', interskill: 'Market Place', zoom: 'None'},
+            {features: 'Social Media Promotion', interskill: 'Available', zoom: 'None'},
+            {features: 'Payment Systeem (CC, TT, Gopay, etc)', interskill: 'Available', zoom: 'None'},
+            {features: 'E-Wallet', interskill: 'Available', zoom: 'None'},
+            {features: 'Revenue Report', interskill: 'Available', zoom: 'None'},
+            {features: 'Transaction History', interskill: 'Available', zoom: 'None'},
+            {features: 'Payment History', interskill: 'Available', zoom: 'None'},
+            {features: 'Early Bird Event Promo Setting', interskill: 'Available', zoom: 'None'},
+            {features: 'Voucher Event Promo Setting', interskill: 'Available', zoom: 'None'},
+            {features: 'Event Artificial Intelligent System (AI)', interskill: 'Available', zoom: 'None'},
+            {features: 'Trainer Rating System', interskill: 'Available', zoom: 'None'},
+            {features: 'Trainers Community', interskill: 'Available', zoom: 'None'},
+            {features: 'Follower Management', interskill: 'Available', zoom: 'None'},
+            {features: 'Room Management', interskill: 'Available', zoom: 'None'},
+            {features: 'Trainer Profile', interskill: 'Available', zoom: 'None'},
+            {features: 'Preview Video', interskill: 'Available', zoom: 'None'},
+            {features: 'Mobile Push Notification', interskill: 'Available', zoom: 'None'},
+            {features: 'Tell a friend', interskill: 'Available', zoom: 'None'},
+            {features: 'Articles', interskill: 'Available', zoom: 'None'},
+            {features: 'Customer Service Support For Trainer and Participant', interskill: 'Available', zoom: 'None'},
+            {features: 'News Notification', interskill: 'Available', zoom: 'None'},
+            {features: 'Free Event Trial Website', interskill: 'Available', zoom: 'None'}
         ];
         return (
             <Container fluid>
@@ -59,7 +59,7 @@ class SectionThree extends Component {
                                     <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                                     <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
                                     <ul className="dListChecked mb-2">
-                                        <li class="dChecked">Hit the gym</li>
+                                        <li class="dChecked">Mencatat yang bersedia hadir</li>
                                         <li class="dChecked">Pay bills</li>
                                         <li class="dChecked">Meet George</li>
                                         <li class="dChecked">Buy eggs</li>
@@ -78,7 +78,7 @@ class SectionThree extends Component {
                                 </h5>
                             </div>
                             <div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <span className="dTextWarning"><b>Interskill</b></span>.</p>
+                                <p>28 Fitur yang akan Anda Dapatkan sekaligus dari Platform Edukasi <span className="dTextWarning"><b>Interskill</b></span>.</p>
                             </div>
                             <div className="mb-2">
                                 <Table responsive className="dTable">
