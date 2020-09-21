@@ -21,9 +21,19 @@ class SectionOne extends Component {
                             </div>
                             <div>
                                 <iframe className="mb-4" title="Interskill" width="100%" height="450" src="https://www.youtube.com/embed/oDvBTR1GFiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                <Link to="#" className="btn btn-danger dButtonRed dBlink">
-                                    Ya, Saya Mau Solusi ini
-                                </Link>
+                                <div className="d-flex justify-content-center">
+                                    <i className="fa fa-minus fa-2x pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-2 align-self-center" aria-hidden="true"></i>
+                                    <Link to="#" className="btn btn-danger dButtonRed dBlink">
+                                        Ya, Saya Mau Solusi ini
+                                    </Link>
+                                    <i className="fa fa-caret-left pl-2 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-minus fa-2x pl-1 align-self-center" aria-hidden="true"></i>
+                                </div>
                             </div>
                         </div>
                     </Col>

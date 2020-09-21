@@ -6,10 +6,10 @@ import renderHTML from 'react-render-html'
 class SectionFour extends Component {
     render() {
         const testimonial = [
-            {name: 'Interskill', position: 'lorem ipsum', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
-            {name: 'Interskill', position: 'lorem ipsum', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
-            {name: 'Interskill', position: 'lorem ipsum', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
-            {name: 'Interskill', position: 'lorem ipsum', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
+            {name: 'Mangara Sidabutar', position: 'Senior Consultant & Managing Director Madael Consult', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+            {name: 'Yovi', position: 'Trainer Nutrition for human with Plant Based Whole Food Diet', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+            {name: 'Denilson Chandra', position: 'Public Speaking, Copywriting, Training, Motivation, Sales, Leadership & Personal Branding', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."},
+            {name: 'Pusta Hery Kurnia', position: 'Motivator dan Penulis Buku Presentation Power', image: 'http://placehold.it/834x450', description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."}
         ]
         return (
             <Container fluid>
@@ -19,7 +19,7 @@ class SectionFour extends Component {
                             <div className="dTitle">
                                 <h5>
                                     <b>
-                                        Apa Kata mereka yang sudah mengajar di <span className="text-danger">Interskill</span>?
+                                        Apa Kata mereka yang sudah mengajar di <span className="dTextWarning">Interskill</span>?
                                     </b>
                                 </h5>
                             </div>
@@ -34,7 +34,7 @@ class SectionFour extends Component {
                                             <p>
                                                 {renderHTML(value.description)}
                                             </p>
-                                            <b>- {value.name} -</b>
+                                            <b className="RobotoBold">- {value.name} -</b>
                                             <p>{value.position}</p>
                                         </div>
                                     </div>

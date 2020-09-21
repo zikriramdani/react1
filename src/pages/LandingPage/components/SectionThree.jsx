@@ -73,12 +73,12 @@ class SectionThree extends Component {
                             <div className="dTitle">
                                 <h5 className="text-capitalize">
                                     <b>
-                                        Fitur Apa Saja Yang Akan Anda Dapatkan di <span className="text-danger">Interskill</span>?
+                                        Fitur Apa Saja Yang Akan Anda Dapatkan di <span className="dTextWarning">Interskill</span>?
                                     </b>
                                 </h5>
                             </div>
                             <div>
-                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <span className="text-danger"><b>Interskill</b></span>.</p>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <span className="dTextWarning"><b>Interskill</b></span>.</p>
                             </div>
                             <div className="mb-2">
                                 <Table responsive className="dTable">
@@ -102,29 +102,54 @@ class SectionThree extends Component {
                                     </tbody>
                                 </Table>
                             </div>
-                            <div className="mb-3">
+                            <div className="d-flex justify-content-center mb-3">
+                                <i className="fa fa-minus fa-2x pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-2 align-self-center" aria-hidden="true"></i>
                                 <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
+                                <i className="fa fa-caret-left pl-2 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-minus fa-2x pl-1 align-self-center" aria-hidden="true"></i>
                             </div>
                             <div className="text-left">
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    Fitur-fitur yang ada di <span className="dTextWarning RobotoBold"><b>Interskill</b></span> sudah lengkap, lalu, apa yang menghambat Anda untuk mulai membuat Event Anda yg Pertama? Mungkin ini Masalah Anda…
                                 </p>
                                 <ol className="dList">
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li className="mb-4">
+                                        Saya harus mulai dari mana?<br></br>
+                                        Anda dapat klik tombol Saya Mau Mendaftar, kemudian Anda Dapat Mendaftar sebagai Member <span className="dTextWarning RobotoBold"><b>Interskill</b></span> dan kemudian upgrade menjadi Trainer
+                                    </li>
+                                    <li className="mb-4">
+                                        Saya gaptek (gagap teknologi)<br></br>
+                                        Di <span className="dTextWarning RobotoBold"><b>Interskill</b></span>, setelah Anda Mendaftar menjadi Trainer, Anda dapat mengakses Video-Video Tutorial yang lengkap di Library <span className="dTextWarning RobotoBold"><b>Interskill</b></span> kapan saja untuk belajar step by step mulai dari bagaimana cara membuat event, bagaimana cara “go live” pada saat akan memulai event Anda, sampai bagaimana cara menggunakan fitur-fitur yang ada di <span className="dTextWarning RobotoBold"><b>Interskill</b></span>. 
+                                        Bahkan Pemula yang baru mulai buat Event juga bisa.
+                                    </li>
+                                    <li className="mb-4">
+                                        Saya sudah belajar Video Tutorial di Library <span className="dTextWarning RobotoBold"><b>Interskill</b></span>, tapi masih ada yang saya belum mengerti
+                                        Di <span className="dTextWarning RobotoBold"><b>Interskill</b></span>.<br></br>kami mempunyai tim support yang akan membantu Anda apabila Anda menemukan kendala ataupun ada yang masih tidak dimengerti.
+                                    </li>
                                 </ol>
                                 <p>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    Anda cukup klik tombol Whatsapp di kanan bawah website Interskill, maka tim support kami akan dengan senang hati membantu Anda.
                                 </p>
                             </div>
-                            <div className="mb-3">
+                            <div className="d-flex justify-content-center mb-3">
+                                <i className="fa fa-minus fa-2x pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-right pr-2 align-self-center" aria-hidden="true"></i>
                                 <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                     Ya, Saya Mau Solusi ini
                                 </Link>
+                                <i className="fa fa-caret-left pl-2 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                <i className="fa fa-minus fa-2x pl-1 align-self-center" aria-hidden="true"></i>
                             </div>
                         </div>
                     </Col>

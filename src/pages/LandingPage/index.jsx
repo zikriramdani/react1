@@ -33,7 +33,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <h6>
-                                    Sebelum menutup halaman ini patikan Anda telah mengecek<br></br>penawaran special kami hanya untuk Anda
+                                    Sebelum menutup halaman ini pastikan Anda telah mengecek<br></br>penawaran special kami hanya untuk Anda
                                 </h6>
                             </Col>
                         </Row>
@@ -57,12 +57,23 @@ class Index extends Component {
                                             Mendapatkan Bonus Ekslusif di atas
                                         </b>
                                     </h5>
+                                    
+                                </div>
+                                <div>
                                     <p>Khusus bagi yang Mendaftar Hari ini</p>
                                 </div>
-                                <div className="mb-3">
+                                <div className="d-flex justify-content-center mb-3">
+                                    <i className="fa fa-minus fa-2x pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-right pr-2 align-self-center" aria-hidden="true"></i>
                                     <Link to="#" className="btn btn-danger dButtonRed dBlink">
                                         Ya, Saya Mau Solusi ini
                                     </Link>
+                                    <i className="fa fa-caret-left pl-2 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-caret-left pl-1 align-self-center" aria-hidden="true"></i>
+                                    <i className="fa fa-minus fa-2x pl-1 align-self-center" aria-hidden="true"></i>
                                 </div>
                                 <div className="dTitle">
                                     <h5 className="text-capitalize">
@@ -82,7 +93,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <p className="mb-0">
-                                    <b>INTERSKILL</b>
+                                    <b className="RobotoBold">INTERSKILL</b>
                                     <br></br>
                                     Copyright 2020. All Rights Reserved
                                 </p>

@@ -115,7 +115,7 @@ class Index extends Component {
                                 <div>
                                     <p>
                                         Silahkan isi formulir di bawah untuk mendapatkan<br></br>
-                                        <b><span className="dTextWarning" style={{fontFamily: 'serif'}}><u>GRATIS Video Training</u></span></b> Anda dan video akan<br></br>
+                                        <b><span className="dTextWarning Serif"><u>GRATIS Video Training</u></span></b> Anda dan video akan<br></br>
                                         langsung dikirimkan ke email Anda.
                                     </p>
                                     <div>
@@ -149,7 +149,7 @@ class Index extends Component {
                         <Row>
                             <Col className="text-center p-3">
                                 <p className="mb-0">
-                                    <b style={{fontFamily: 'Gilroy-Bold'}}>INTERSKILL</b>
+                                    <b className="GilroyBold">INTERSKILL</b>
                                     <br></br>
                                     Copyright 2020. All Rights Reserved
                                 </p>

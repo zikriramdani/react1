@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
+import {Container, Row, Col, Image} from 'react-bootstrap';
+
+import LogoInterskill from '../../../assets/images/logo-interskill.png';
 
 class SectionSix extends Component {
     render() {
@@ -9,11 +11,11 @@ class SectionSix extends Component {
                     <Col>
                         <div className="dSection dSectionOne">
                             <div className="dTitle">
-                                <h5>
+                                <h6>
                                     <b>
                                         Special Offer
                                     </b>
-                                </h5>
+                                </h6>
                             </div>
                             <div className="dTextBonus">
                                 <h1>
@@ -24,9 +26,13 @@ class SectionSix extends Component {
                             </div>
                             <div className="text-left">
                                 <i>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
+                                    <h6>
+                                        <b>
+                                            Bonus rate Revenue Sharing yang lebih besar<br></br><br></br>
+                                            Daftar Hari Ini juga dan Dapatkan Bonus Rate Revenue Sharing yang lebih besar yaitu 80% untuk Trainer, dan 20% untuk <span className="dTextWarning RobotoBold"><b>Interskill</b></span>. Pendaftaran setelah hari ini, maka Rate Revenue Sharing akan kembali ke 70% untuk Trainer dan 30% untuk <span className="dTextWarning RobotoBold"><b>Interskill</b></span><br></br><br></br>
+                                            Promo berlaku hanya untuk Trainer yang mendaftar hari ini. Sistem kami secara otomatis langsung mencatat Revenue Sharing dengan Rate 80% : 20%
+                                        </b>
+                                    </h6>
                                 </i>
                             </div>
 
@@ -37,12 +43,17 @@ class SectionSix extends Component {
                                     </b>
                                 </h1>
                             </div>
-                            <div className="text-left">
+                            <div>
                                 <i>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
+                                    <h6>
+                                        <b>
+                                            Bonus Affiliasi Trainer Get Member (TGM), 5% berlaku seumur hidup<br></br><br></br>
+                                            Trainer akan mendapatkan tambahan bonus 5% apabila mengundang Member untuk daftar dan mengikuti event berbayar di <span className="dTextWarning RobotoBold"><b>Interskill</b></span><br></br><br></br>
+                                            Pendaftaran setelah hari ini, maka bonus tidak berlaku seumur hidup
+                                        </b>
+                                    </h6>
                                 </i>
+                                <Image className="mt-4" src={LogoInterskill} alt="interskill" height="200" />
                             </div>
 
                             <div className="dTextBonus">
@@ -52,12 +63,17 @@ class SectionSix extends Component {
                                     </b>
                                 </h1>
                             </div>
-                            <div className="text-left">
+                            <div>
                                 <i>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
-                                    <h6>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h6>
+                                    <h6>
+                                        <b>
+                                            Bonus Affiliasi Trainer Get Trainer (TGT), 1% berlaku seumur hidup<br></br><br></br>
+                                            DAPATKAN TAMBAHAN BONUS 1% DARI OMSET TRAINER YANG BERHASIL KITA UNDANG UNTUK DAFTAR DI <span className="dTextWarning RobotoBold"><b>INTERSKILL</b></span>.<br></br><br></br>
+                                            Pendaftaran setelah hari ini, maka bonus tidak berlaku seumur hidup
+                                        </b>
+                                    </h6>
                                 </i>
+                                <Image className="mt-4" src={LogoInterskill} alt="interskill" height="200" />
                             </div>
                         </div>
                     </Col>

@@ -1,5 +1,6 @@
 .dBody {
     background-color: #e8e8e8;
+    font-family: 'Roboto';
 
     .dTopbar {
         background-color: black;
@@ -9,6 +10,19 @@
         background-color: #fe0202;
         color: white;
         margin-bottom: 20px;
+        font-family: 'Roboto-Bold';
+    }
+
+    .dTitle {
+        font-family: 'Roboto-Bold';
+    }
+
+    .dSectionTwo {
+        font-family: 'Roboto-Bold';
+
+        .dSectionOne__description {
+            font-family: 'Roboto';
+        }
     }
     
     .dContact {
