@@ -50,7 +50,7 @@ class SectionThree extends Component {
                             </div>
 
                             <div className="text-left mb-5">
-                                <div className="mb-3" style={{height: 300}}>
+                                <div className="dBoxBackgroundImage mb-3">
                                     <div className="dBackgroundImageCenter" style={{backgroundImage: 'url(' + Foto3 + ')'}}></div>
                                 </div>
                                 <ol className="dList">

@@ -18,7 +18,7 @@ class SectionSeven extends Component {
                             </div>
                             <div>
                                 <h6 className="mb-4"><b>Klik "Video Penjelasan Bonus Ekslusif" dibawah ini:</b></h6>
-                                <iframe  title="Interskill" width="100%" height="450" src="https://www.youtube.com/embed/oDvBTR1GFiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className="dIframe"  title="Interskill" width="100%" height="600" src="https://www.youtube.com/embed/oDvBTR1GFiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                             </div>
                         </div>
                     </Col>

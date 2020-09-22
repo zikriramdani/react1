@@ -9,6 +9,8 @@ import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
 import SectionFour from './components/SectionFour';
+import SectionFourTwo from './components/SectionFourTwo';
+import SectionFourThree from './components/SectionFourThree';
 import SectionFive from './components/SectionFive';
 import SectionSix from './components/SectionSix';
 import SectionSeven from './components/SectionSeven';
@@ -43,6 +45,8 @@ class Index extends Component {
                 <SectionTwo />
                 <SectionThree />
                 <SectionFour />
+                <SectionFourTwo />
+                <SectionFourThree />
                 <SectionFive />
                 <SectionSix />
                 <SectionSeven />

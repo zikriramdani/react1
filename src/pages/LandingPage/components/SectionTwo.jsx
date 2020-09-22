@@ -23,7 +23,7 @@ class SectionTwo extends Component {
                             </div>
 
                             <div className="dSectionOne__description">
-                                <div className="mb-3" style={{height: 300}}>
+                                <div className="dBoxBackgroundImage mb-3">
                                     <div className="dBackgroundImageCenter" style={{backgroundImage: 'url(' + Foto1 + ')'}}></div>
                                 </div>
                                 <div className="text-left">
@@ -81,7 +81,7 @@ class SectionTwo extends Component {
                                 </h5>
                             </div>
                             <div className="dSectionOne__description text-left">
-                                <div className="mb-3" style={{height: 300}}>
+                                <div className="dBoxBackgroundImage mb-3">
                                     <div className="dBackgroundImageTop" style={{backgroundImage: 'url(' + Foto2 + ')'}}></div>
                                 </div>
                                 <p>

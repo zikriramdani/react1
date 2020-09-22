@@ -20,7 +20,7 @@ class SectionOne extends Component {
                                 </h5>
                             </div>
                             <div>
-                                <iframe className="mb-4" title="Interskill" width="100%" height="450" src="https://www.youtube.com/embed/oDvBTR1GFiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                <iframe className="dIframe mb-4" title="Interskill" width="100%" height="600" src="https://www.youtube.com/embed/oDvBTR1GFiI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                                 <div className="d-flex justify-content-center">
                                     <i className="fa fa-minus fa-2x pr-1 align-self-center" aria-hidden="true"></i>
                                     <i className="fa fa-caret-right pr-1 align-self-center" aria-hidden="true"></i>

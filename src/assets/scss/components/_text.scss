@@ -16,46 +16,46 @@
     color: #fe0b07;
 }
 
-.dBlink {
-    -moz-animation-duration: 1000ms;
-    -moz-animation-name: blink;
-    -moz-animation-iteration-count: infinite;
-    -moz-animation-direction: alternate;
+// .dBlink {
+//     -moz-animation-duration: 1000ms;
+//     -moz-animation-name: blink;
+//     -moz-animation-iteration-count: infinite;
+//     -moz-animation-direction: alternate;
   
-    -webkit-animation-duration: 1000ms;
-    -webkit-animation-name: blink;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
+//     -webkit-animation-duration: 1000ms;
+//     -webkit-animation-name: blink;
+//     -webkit-animation-iteration-count: infinite;
+//     -webkit-animation-direction: alternate;
     
-    animation-duration: 1000ms;
-    animation-name: blink;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-}
-@-moz-keyframes blink {
-    from {
-      opacity: 1;
-    }
+//     animation-duration: 1000ms;
+//     animation-name: blink;
+//     animation-iteration-count: infinite;
+//     animation-direction: alternate;
+// }
+// @-moz-keyframes blink {
+//     from {
+//       opacity: 1;
+//     }
   
-    to {
-      opacity: 0;
-    }
-}
-@-webkit-keyframes blink {
-    from {
-      opacity: 1;
-    }
+//     to {
+//       opacity: 0;
+//     }
+// }
+// @-webkit-keyframes blink {
+//     from {
+//       opacity: 1;
+//     }
   
-    to {
-      opacity: 0;
-    }
-}
-@keyframes blink {
-    from {
-      opacity: 1;
-    }
+//     to {
+//       opacity: 0;
+//     }
+// }
+// @keyframes blink {
+//     from {
+//       opacity: 1;
+//     }
   
-    to {
-      opacity: 0;
-    }
-}
+//     to {
+//       opacity: 0;
+//     }
+// }
