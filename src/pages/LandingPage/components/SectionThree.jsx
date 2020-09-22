@@ -54,19 +54,21 @@ class SectionThree extends Component {
                                     <div className="dBackgroundImageCenter" style={{backgroundImage: 'url(' + Foto3 + ')'}}></div>
                                 </div>
                                 <ol className="dList">
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li><span className="dTextWarning RobotoBold">Interskill</span> Gratis – Bisa live menggunakan zoom meeting/zoom webinar > 40 menit dan > 100 peserta.</li>
+                                    <li>Tidak perlu membayar bulanan zoom maupun live platform lainnya</li>
+                                    <li>Walaupun Meeting ID disebar, participant yang tidak register di <span className="dTextWarning RobotoBold">Interskill</span> tidak bisa join</li>
+                                    <li>Participant yang tidak diundang tidak bisa masuk, kalau zoom biasa, mereka bisa masuk ke waiting room dan host/co host harus memvalidasi satu persatu.</li>
+                                    <li>Mengurangi biaya SDM untuk melakukan hal Administrasi manual yang dibutuhkan trainer:</li>
+
                                     <ul className="dListChecked mb-2">
                                         <li class="dChecked">Mencatat yang bersedia hadir</li>
-                                        <li class="dChecked">Pay bills</li>
-                                        <li class="dChecked">Meet George</li>
-                                        <li class="dChecked">Buy eggs</li>
-                                        <li class="dChecked">Read a book</li>
-                                        <li class="dChecked">Organize office</li>
+                                        <li class="dChecked">Mencatat/meminta peserta untuk menuliskan nama, no  telepon, dan alamat email</li>
+                                        <li class="dChecked">Mencatat siapa yang sudah membayar event</li>
+                                        <li class="dChecked">Mengirimkan reminder email/mobile phone untuk event yang akan mulai</li>
+                                        <li class="dChecked">Memastikan yang masuk event, menjadi ke event adalah yang sudah membayar. (Bayangkan jika peserta lebih dari 100)</li>
+                                        <li class="dChecked">Mengirimkan informasi mengenai event terbaru kita ke semua member kita</li>
                                     </ul>
-                                    <li>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</li>
+                                    <li>Bisa memilih untuk menggunakan zoom webinar atau zoom meeting. Dimana zoom webinar adalah versi yang lebih mahal dibanding zoom meeting.</li>
                                 </ol>
                             </div>
 
