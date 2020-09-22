@@ -106,13 +106,13 @@ class Index extends Component {
                 <div className="dContentSqueze">
                     <Container fluid>
                         <Row>
-                            <Col xs={12} md={6} className="d-flex align-self-center">
+                            <Col xs={12} md={6} xl={8} className="d-flex align-self-center">
                                 <div>
                                     <Image src={VideoCover} className="w-100"/>
                                 </div>
                             </Col>
-                            <Col xs={12} md={6}>
-                                <div>
+                            <Col xs={12} md={6} xl={4} className="d-flex align-self-center">
+                                <div className="w-100">
                                     <p>
                                         Silahkan isi formulir di bawah untuk mendapatkan<br></br>
                                         <b><span className="dTextWarning Serif"><u>GRATIS Video Training</u></span></b> Anda dan video akan<br></br>
