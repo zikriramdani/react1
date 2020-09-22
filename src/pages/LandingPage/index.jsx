@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import SectionOne from './components/SectionOne';
 import SectionTwo from './components/SectionTwo';
 import SectionThree from './components/SectionThree';
-import SectionFour from './components/SectionFour';
+// import SectionFour from './components/SectionFour';
 import SectionFourTwo from './components/SectionFourTwo';
 import SectionFourThree from './components/SectionFourThree';
 import SectionFive from './components/SectionFive';
@@ -44,7 +44,7 @@ class Index extends Component {
                 <SectionOne />
                 <SectionTwo />
                 <SectionThree />
-                <SectionFour />
+                {/* <SectionFour /> */}
                 <SectionFourTwo />
                 <SectionFourThree />
                 <SectionFive />
