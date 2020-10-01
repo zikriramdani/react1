@@ -45,7 +45,7 @@ class Index extends Component {
            let lastAtPos = fields["email"].lastIndexOf('@');
            let lastDotPos = fields["email"].lastIndexOf('.');
 
-           if (!(lastAtPos < lastDotPos && lastAtPos > 0 && fields["email"].indexOf('@@') == -1 && lastDotPos > 2 && (fields["email"].length - lastDotPos) > 2)) {
+           if (!(lastAtPos < lastDotPos && lastAtPos > 0 && fields["email"].indexOf('@@') === -1 && lastDotPos > 2 && (fields["email"].length - lastDotPos) > 2)) {
               formIsValid = false;
               errors["email"] = "Email tidak valid";
             }
@@ -53,7 +53,7 @@ class Index extends Component {
 
        this.setState({errors: errors});
        return formIsValid;
-   }
+    }
 
     handleChange = (field, e) => {         
         let fields = this.state.fields;
@@ -62,14 +62,14 @@ class Index extends Component {
     }
 
     handleSubmit(e) {
-        this.state.isLoading = true;
+        // this.state.isLoading = true;
         e.preventDefault();
         if(this.handleValidation()){
             // alert("Form submitted");
-            this.state.isLoading = false;
+            // this.state.isLoading = false;
         }else{
             // alert("Form has errors.")
-            this.state.isLoading = false;
+            // this.state.isLoading = false;
         }
     }
 
