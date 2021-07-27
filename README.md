@@ -1,6 +1,6 @@
 ## Available Scripts
 
-### [https://reactsatu.netlify.app]
+### [https://reactsatu.netlify.app] | [https://reactsatu.netlify.app/squeze]
 
 In the project directory, you can run:
 
