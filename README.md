@@ -1,6 +1,6 @@
 ## Available Scripts
 
-### [https://reactsatu.netlify.app]
+### [https://reactjssatu.netlify.app]
 
 In the project directory, you can run:
 
